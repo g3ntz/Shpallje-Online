@@ -1,0 +1,86 @@
+﻿@model ShpalljeOnline.ViewModels.RegisterViewModel
+@{
+    ViewBag.Title = "Shpallje Online - Regjistrohu";
+}
+
+<form style="width: 500px; margin-top: 5%;" class="register-page mx-auto" action="/Account/Register" method="POST">
+    @Html.AntiForgeryToken()
+    <h3 class="text-info" style="text-align: center;">Regjistrohu</h3>
+    <div class="form-row">
+        @Html.HiddenFor(x => x.UserID)
+        <div class="form-group col-md-12">
+            @Html.LabelFor(temp => temp.Name)
+            @Html.TextBoxFor(temp => temp.Name, new { @class = "form-control" })
+            @Html.ValidationMessageFor(temp => temp.Name)
+        </div>
+
+        <div class="form-group col-md-12">
+            @Html.LabelFor(temp => temp.Surname)
+            @Html.TextBoxFor(temp => temp.Surname, new { @class = "form-control" })
+            @Html.ValidationMessageFor(temp => temp.Surname)
+        </div>
+
+        <div class="form-group col-md-12">
+            @Html.LabelFor(temp => temp.Email)
+            @Html.TextBoxFor(temp => temp.Email, new { @class = "form-control" })
+            @Html.ValidationMessageFor(temp => temp.Email)
+        </div>
+
+        <div class="form-group col-md-12">
+            @Html.LabelFor(temp => temp.Password)
+            @Html.PasswordFor(temp => temp.Password, new { @class = "form-control" })
+            @Html.ValidationMessageFor(temp => temp.Password)
+        </div>
+
+        <div class="form-group col-md-12">
+            @Html.LabelFor(temp => temp.ConfirmPassword)
+            @Html.PasswordFor(temp => temp.ConfirmPassword, new { @class = "form-control" })
+            @Html.ValidationMessageFor(temp => temp.ConfirmPassword)
+        </div>
+
+        <div class="form-group col-md-12">
+            @Html.LabelFor(temp => temp.PhoneNr)
+            @Html.TextBoxFor(temp => temp.PhoneNr, new { @class = "form-control" })
+            @Html.ValidationMessageFor(temp => temp.PhoneNr)
+        </div>
+
+        <button type="submit" class="btn btn-info col-md-12 mb-5">Regjistrohu</button>
+    </div>
+</form>
+
+@*<form action="/Account/Register" method="POST">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            @Html.LabelFor(temp => temp.Username)
+            @Html.TextBoxFor(temp => temp.Username, new { placeholder = "Username", @class = "form-control" })
+            @Html.ValidationMessageFor(temp => temp.Username)
+        </div>
+        <div class="form-group col-md-6">
+            @Html.LabelFor(temp => temp.Password)
+            @Html.PasswordFor(temp => temp.Password, new { placeholder = "Password", @class = "form-control" })
+            @Html.ValidationMessageFor(temp => temp.Password)
+        </div>
+        <div class="form-group col-md-6">
+            @Html.LabelFor(temp => temp.ConfirmPassword)
+            @Html.PasswordFor(temp => temp.ConfirmPassword, new { placeholder = "Confirm Password", @class = "form-control" })
+            @Html.ValidationMessageFor(temp => temp.ConfirmPassword)
+        </div>
+
+        <div class="form-group col-md-6">
+            @Html.LabelFor(temp => temp.Email)
+            @Html.TextBoxFor(temp => temp.Email, new { placeholder = "Email", @class = "form-control" })
+            @Html.ValidationMessageFor(temp => temp.Email)
+        </div>
+
+        <div class="form-group col-md-6">
+            @Html.LabelFor(temp => temp.PhoneNr)
+            @Html.TextBoxFor(temp => temp.PhoneNr, new { placeholder = "Mobile", @class = "form-control" })
+            @Html.ValidationMessageFor(temp => temp.PhoneNr)
+        </div>
+    </div>
+
+    @Html.ValidationSummary()
+
+    <button type="submit" class="btn btn-success">Register</button>
+</form>*@
+

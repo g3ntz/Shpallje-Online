@@ -1,0 +1,15 @@
+﻿
+<div class="category-watch col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6">
+    <h4 class="text-info">Te gjitha Kategorite</h4>
+    <ul class="list-group list-group-flush mt-4">
+        @{ int count = 1; }
+        @foreach (var item in ViewBag.Categories)
+        {
+            <li class="list-group-item list-group-item-action d-flex justify-content-between">
+                @count. @item.CategoryName
+                <a href="#" style="text-align:right; text-decoration:none;" onclick="deleteCategory('@item.CategoryID', '@item.CategoryName')"><i class="material-icons text-danger" style="font-size:25px;">delete</i></a>
+            </li>
+            count++;
+        }
+    </ul>
+</div>

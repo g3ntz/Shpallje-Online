@@ -1,0 +1,52 @@
+﻿@model ShpalljeOnline.Models.Category
+@using ShpalljeOnline.Models;
+@{
+    ViewBag.Title = "Shpallje Online - Kategorite";
+}
+
+<div class="row mt-4">
+    @{ 
+        ShpalljeOnlineDbContext db = new ShpalljeOnlineDbContext();
+        ViewBag.Categories = db.Categories.ToList();
+        Html.RenderPartial("CategoryPartialView");
+    }
+    <div class="category-create col-12 col-sm-12 col-md-12 col-lg-7 col-xl-6">
+        <h4 class="text-info">Shto Kategori</h4>
+        <form method="post" action="/admin/category/index" class="mt-2">
+            @Html.AntiForgeryToken()
+            @Html.LabelFor(x => x.CategoryName, new { @class = "mt-2 col-12 pl-0" })
+            @Html.TextBoxFor(x => x.CategoryName, new { @class = "form-control col-9 col-sm-9 col-md-9 col-lg-5 col-xl-5", @id = "categoryName" })
+            <button class="btn btn-info text-white col-2">Shto</button>
+            @Html.ValidationMessageFor(x => x.CategoryName, "", new { @class = "d-block"})
+
+        </form>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Jo</button>
+                <a id="btnDelete" href="" class="btn btn-danger text-white">Po, i sigurte</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function deleteCategory(categoryID, categoryName) {
+        console.log("click");
+        $("#exampleModalLabel").text("A jeni te sigurte qe deshironi ta fshini kategorine: " + categoryName);
+        var url = "/Admin/Category/Delete/" + categoryID;
+        $("#btnDelete").attr("href", url);
+        $("#exampleModal").modal("show");
+    }
+</script>

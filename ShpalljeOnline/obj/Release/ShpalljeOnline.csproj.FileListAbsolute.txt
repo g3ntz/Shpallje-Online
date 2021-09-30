@@ -1,0 +1,480 @@
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\ShpalljeOnline.dll.config
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\ShpalljeOnline.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\ShpalljeOnline.pdb
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csc.exe
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csc.exe.config
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csc.rsp
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csi.exe
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csi.exe.config
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csi.rsp
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.AppContext.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Console.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.IO.Compression.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Net.Http.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Net.Sockets.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.ValueTuple.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Xml.XPath.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\vbc.exe
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\vbc.exe.config
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\vbc.rsp
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\VBCSCompiler.exe
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\EntityFramework.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\EntityFramework.SqlServer.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Helpers.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Mvc.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Razor.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.Deployment.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.Razor.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\xunit.abstractions.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\xunit.core.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\EntityFramework.xml
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\EntityFramework.SqlServer.xml
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\xunit.abstractions.xml
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\xunit.core.xml
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Razor.xml
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.xml
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.Deployment.xml
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.Razor.xml
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Helpers.xml
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Mvc.xml
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.csprojAssemblyReference.cache
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.Initial.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.EditedInfoTableName.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.RemovedUsername.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedUserToPostModel.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedPostValidation.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedCategoryValidation.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.DeletedCategoryValidation.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedCategoryValidation2.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedCategoryValidation.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedLocationValidation.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedPostValidation.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedPostTitleMaxlength.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedPostTitleMaxlengthMessage.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedRoles.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedUserAndInfoValidation.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedRegexForInfoEmail.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedRegexForPhoneNr.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedRegexForPhoneNr1.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.TranslatedValidationsToAlbanian.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.TranslatedValidationsToAlbanian1.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.TranslatedValidationsToAlbanian2.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedEmailExistValidationToUser.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength1.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength11.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength12.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength13.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength14.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength15.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength16.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength17.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength18.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength19.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength110.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength111.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength112.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength113.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength114.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength115.resources
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.csproj.GenerateResource.cache
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.csproj.CoreCompileInputs.cache
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.csproj.CopyComplete
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.dll
+C:\Users\OS\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.pdb
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\ShpalljeOnline.dll.config
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\ShpalljeOnline.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\ShpalljeOnline.pdb
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csc.exe.config
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csc.rsp
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csi.exe
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csi.exe.config
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csi.rsp
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.AppContext.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Console.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.IO.Compression.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Net.Http.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Net.Sockets.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.ValueTuple.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\vbc.exe.config
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\vbc.rsp
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\EntityFramework.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.Deployment.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.Razor.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\xunit.abstractions.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\xunit.core.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\EntityFramework.xml
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\xunit.abstractions.xml
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\xunit.core.xml
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.xml
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.Deployment.xml
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.Razor.xml
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.Initial.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.EditedInfoTableName.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.RemovedUsername.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedUserToPostModel.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedPostValidation.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedCategoryValidation.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.DeletedCategoryValidation.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedCategoryValidation2.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedCategoryValidation.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedLocationValidation.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedPostValidation.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedPostTitleMaxlength.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedPostTitleMaxlengthMessage.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedRoles.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedUserAndInfoValidation.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedRegexForInfoEmail.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedRegexForPhoneNr.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedRegexForPhoneNr1.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.TranslatedValidationsToAlbanian.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.TranslatedValidationsToAlbanian1.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.TranslatedValidationsToAlbanian2.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedEmailExistValidationToUser.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength1.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength11.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength12.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength13.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength14.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength15.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength16.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength17.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength18.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength19.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength110.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength111.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength112.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength113.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength114.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength115.resources
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.csproj.CopyComplete
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.dll
+C:\Users\HP\Desktop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.pdb
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\ShpalljeOnline.dll.config
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\ShpalljeOnline.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\ShpalljeOnline.pdb
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csc.exe.config
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csc.rsp
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csi.exe
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csi.exe.config
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csi.rsp
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.AppContext.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Console.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.IO.Compression.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Net.Http.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Net.Sockets.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.ValueTuple.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\vbc.exe.config
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\vbc.rsp
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\EntityFramework.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.Deployment.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.Razor.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\xunit.abstractions.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\xunit.core.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\EntityFramework.xml
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\xunit.abstractions.xml
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\xunit.core.xml
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.xml
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.Deployment.xml
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.Razor.xml
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.Initial.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.EditedInfoTableName.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.RemovedUsername.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedUserToPostModel.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedPostValidation.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedCategoryValidation.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.DeletedCategoryValidation.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedCategoryValidation2.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedCategoryValidation.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedLocationValidation.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedPostValidation.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedPostTitleMaxlength.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedPostTitleMaxlengthMessage.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedRoles.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedUserAndInfoValidation.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedRegexForInfoEmail.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedRegexForPhoneNr.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedRegexForPhoneNr1.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.TranslatedValidationsToAlbanian.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.TranslatedValidationsToAlbanian1.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.TranslatedValidationsToAlbanian2.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedEmailExistValidationToUser.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength1.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength11.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength12.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength13.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength14.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength15.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength16.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength17.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength18.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength19.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength110.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength111.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength112.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength113.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength114.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength115.resources
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.csproj.CopyComplete
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.dll
+C:\Users\HP\Desktop\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.pdb
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\ShpalljeOnline.dll.config
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\ShpalljeOnline.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\ShpalljeOnline.pdb
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csc.exe.config
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csc.rsp
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csi.exe
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csi.exe.config
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\csi.rsp
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.AppContext.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Console.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.IO.Compression.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Net.Http.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Net.Sockets.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.ValueTuple.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\vbc.exe.config
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\vbc.rsp
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\EntityFramework.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.Deployment.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.Razor.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\xunit.abstractions.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\xunit.core.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\EntityFramework.xml
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\xunit.abstractions.xml
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\xunit.core.xml
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.xml
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.Deployment.xml
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Webpages.Razor.xml
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.Initial.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.EditedInfoTableName.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.RemovedUsername.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedUserToPostModel.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedPostValidation.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedCategoryValidation.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.DeletedCategoryValidation.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedCategoryValidation2.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedCategoryValidation.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedLocationValidation.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedPostValidation.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedPostTitleMaxlength.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedPostTitleMaxlengthMessage.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedRoles.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedUserAndInfoValidation.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedRegexForInfoEmail.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedRegexForPhoneNr.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedRegexForPhoneNr1.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.TranslatedValidationsToAlbanian.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.TranslatedValidationsToAlbanian1.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.TranslatedValidationsToAlbanian2.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.AddedEmailExistValidationToUser.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength1.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength11.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength12.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength13.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength14.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength15.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength16.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength17.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength18.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength19.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength110.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength111.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength112.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength113.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength114.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.Migrations.UpdatedLocationNameMaxlength115.resources
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.csproj.CopyComplete
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.dll
+C:\Users\HP\Desktop\ShpalljeOnlineAll\Shpallje-Online from laptop\Shpallje-Online - Copy\ShpalljeOnline\ShpalljeOnline\obj\Release\ShpalljeOnline.pdb

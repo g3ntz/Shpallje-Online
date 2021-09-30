@@ -1,0 +1,161 @@
+﻿@model ShpalljeOnline.ViewModels.UserViewModel
+@{
+    ViewBag.Title = "Shpallje Online - Profili Im";
+}
+
+<div style="width: 95%; margin: 0 auto;">
+    @if (ViewBag.otherProfile == true)
+    {
+        <h3 class="text-info" style="margin-top: 30px;">Profili i @Model.Name</h3>
+    }
+    else
+    {
+        <h3 class="text-info" style="margin-top: 30px;">Profili im</h3>
+    }
+    <form action="/Admin/Account/MyProfile" method="POST">
+        @Html.AntiForgeryToken()
+        <div class="form-row">
+            @Html.HiddenFor(x => x.UserID)
+            <div class="form-group col-md-6">
+                @Html.LabelFor(temp => temp.Name)
+                @Html.TextBoxFor(temp => temp.Name, new { @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.Name)
+            </div>
+
+            <div class="form-group col-md-6">
+                @Html.LabelFor(temp => temp.Surname)
+                @Html.TextBoxFor(temp => temp.Surname, new { @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.Surname)
+            </div>
+
+            <div class="form-group col-md-6">
+                @Html.LabelFor(temp => temp.Email)
+                <span class="text-info">(Emaili Bazë)</span>
+                @Html.TextBoxFor(temp => temp.Email, new { @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.Email)
+            </div>
+
+            <div class="form-group col-md-6">
+                @Html.LabelFor(temp => temp.PhoneNr)
+                <span class="text-info">(Kontakti Bazë)</span>
+                @Html.TextBoxFor(temp => temp.PhoneNr, new { @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.PhoneNr)
+            </div>
+
+            @if (Model.UserID != long.Parse(Session["UserID"].ToString()))
+            {
+                <div class="form-group col-md-6">
+                    @Html.LabelFor(temp => temp.RoleID)
+                    @Html.DropDownListFor(temp => temp.RoleID, new SelectList(ViewBag.roles, "RoleID", "RoleName"), "Please Select", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(temp => temp.RoleID)
+                </div>
+            }
+
+            <button type="submit" class="btn btn-info col-md-12">Ndrysho</button>
+        </div>
+    </form>
+    @if (ViewBag.otherProfile == true)
+    {
+        <h3 class="text-info mt-5" style="margin-top: 30px;">Shpalljet e Postuara</h3>
+    }
+    else
+    {
+        <h3 class="text-info mt-5" style="margin-top: 30px;">Shpalljet e mia</h3>
+    }
+    
+
+<div class="row justify-content-between mt-2">
+    @foreach (var post in (List<ShpalljeOnline.Models.Post>)ViewBag.posts)
+    {
+        <div class="home-content d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 mt-3" style="margin:0;">
+            <div class="row" style="width:100%;">
+                <div class="home-content1 col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <div class="image">
+                        @if (post.Photo != null)
+                        {
+                            <a href="/Admin/Post/Details/@post.PostID">
+                                <img src="data:image;base64,@post.Photo" height="200px" width="100%" />
+                            </a>
+                        }
+                        else
+                        {
+                            <img src="~/Images/no-image.png" height="200px" width="100%" />
+                        }
+                    </div>
+                </div>
+
+                <div class="home-content2 col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                    <div class="row">
+                        <div class="title col-12" style="overflow:hidden;">
+                            <a href="/Post/Details/@post.PostID" style="text-decoration:none; font-size:1.2em; font-weight:600;">@post.Title</a>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-between mt-1" style="font-size:0.8em;">
+                        <div class="user user-1 col-5">
+                            <img src="~/Images/user.png" width="15px;" />
+                            <span>@post.User.Name</span>
+                        </div>
+                        <div class="user col-6 col-lg-7 col-md-7 col-sm-7 col-xl-7" style="text-align:right;">
+                            <span class="d-inline-block">Postuar më: @post.Date.Value.ToString("dd MMMM, HH:mm")</span>
+                        </div>
+                        <hr style="margin: 4px 0 7px 0; width:100%;" />
+                    </div>
+
+                    <div class="row">
+                        <div class="description col-12" style="height: 85px;">
+                            <p>@post.Description</p>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex justify-content-between" style="margin-top:23px;">
+                        <div class="">
+                            <div class="location" style="height:25px; margin-top:8px; padding: 0 10px 3px 0;">
+                                <i class="material-icons text-info" style="font-size:20px; margin-top:2px;">location_on</i>
+                                <span style="font-size: 0.7em; letter-spacing:0.1em; text-transform: uppercase; margin:0;" id="txt2">@post.Location.LocationName</span>
+                            </div>
+                        </div>
+
+                        <div class="col-7 d-flex justify-content-end pr-0">
+                            <div class="read-more" style="">
+                                <a href="/Admin/Post/Edit/@post.PostID" class="btn btn-info text-white pl-3 pr-3">Edito</a>
+                            </div>
+                            <div class="read-more2">
+                                <a onclick="deletePost('@post.PostID')" class="btn btn-danger text-white pl-3 pr-3">Fshije</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">A jeni te sigurte qe deshironi ta fshini kete shpajllje?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Jo</button>
+                <form id="deletePostForm" method="post" action="">
+                    <button id="btnDelete" href="" class="btn btn-danger text-white">Po, i sigurte</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function deletePost(postID) {
+        $("#deletePostForm").attr("action", "/Admin/Post/Delete/" + postID + "?deletedFrom=MyProfile");
+        $("#exampleModal").modal("show");
+    }
+</script>

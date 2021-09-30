@@ -1,0 +1,91 @@
+﻿@model ShpalljeOnline.Models.Post
+@{
+    ViewBag.Title = "Shpallje Online - Posto Shpallje";
+}
+
+<div style="width: 95%; margin: 0 auto;">
+    <h3 class="text-info col-5 pl-0" style="margin-top: 30px; display: inline-block">Posto Shpalljen</h3>
+
+    @if (ViewBag.justCreated == true)
+    {
+        <h5 class="shiko text-success col-12 col-sm-12 col-md-6 col-lg-5" style="display: inline-block">Shpallja juaj u krijua me sukses! <span class="" style="font-weight:700"><a class="text-success" style="text-decoration:underline;" href="/admin/post/details/@ViewBag.postID">Shiko</a></span></h5>
+    }
+
+    <form action="/Admin/Post/Create" method="POST" enctype="multipart/form-data">
+        @Html.AntiForgeryToken()
+        <div class="form-row">
+            @Html.HiddenFor(x => x.PostID)
+            <div class="form-group col-md-12">
+                @Html.LabelFor(temp => temp.Title)
+                @Html.TextBoxFor(temp => temp.Title, new { @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.Title)
+            </div>
+
+            <div class="form-group col-md-12">
+                @Html.LabelFor(temp => temp.Description)
+                @Html.TextAreaFor(temp => temp.Description, new { @class = "form-control", @style = "height:200px; max-height:400px;" })
+                @Html.ValidationMessageFor(temp => temp.Description)
+            </div>
+
+            <div class="form-group col-md-6">
+                @Html.LabelFor(x => x.LocationID)
+                @Html.DropDownListFor(temp => temp.LocationID, new SelectList(ViewBag.locations, "LocationID", "LocationName"), "Zgjedh Lokacionin", new { @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.LocationID)
+            </div>
+
+            <div class="form-group col-md-6">
+                @Html.LabelFor(x => x.CategoryID)
+                @Html.DropDownListFor(temp => temp.CategoryID, new SelectList(ViewBag.categories, "CategoryID", "CategoryName"), "Zgjedh Kategorine", new { @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.CategoryID)
+            </div>
+
+            <div class="form-group col-12 col-sm-12 col-md-4 col-lg-4">
+                <label for="Image">Fotoja</label>
+                <input type="file" class="form-control-file" id="image" name="Photo" />
+            </div>
+
+            <div class="form-group col-12 col-sm-12 col-md-8 col-lg-2 mt-4">
+                <label for="differentContact">Tjeter Kontakt? </label>
+                <input type="checkbox" id="differentContact" style="width:30px; height:20px;">
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6" id="differentContactsSection" style="display:none">
+                <div class="row">
+                    <div class="form-group post-email col-12 col-sm-6 col-md-6 col-lg-6">
+                        @Html.LabelFor(temp => temp.Info.Email)
+                        @Html.TextBoxFor(temp => temp.Info.Email, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(temp => temp.Info.Email)
+                    </div>
+
+                    <div class="form-group post-email2 col-12 col-sm-6 col-md-6 col-lg-6" style="padding-right: 0;">
+                        @Html.LabelFor(temp => temp.Info.PhoneNr)
+                        @Html.TextBoxFor(temp => temp.Info.PhoneNr, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(temp => temp.Info.PhoneNr)
+                    </div>
+                </div>
+
+            </div>
+
+
+            <button type="submit" class="btn btn-info col-md-12 mt-2">Posto</button>
+        </div>
+    </form>
+
+    <script>
+        document.getElementById("Info_Email").setAttribute("name", "");
+        document.getElementById("Info_PhoneNr").setAttribute("name", "");
+
+        document.getElementById('differentContact').addEventListener("click", function () {
+            if (document.getElementById('differentContact').checked) {
+                document.getElementById("Info_Email").setAttribute("name", "Info.Email");
+                document.getElementById("Info_PhoneNr").setAttribute("name", "Info.PhoneNr");
+                document.getElementById("differentContactsSection").style.display = "";
+            } else {
+                document.getElementById("Info_Email").setAttribute("name", "");
+                document.getElementById("Info_PhoneNr").setAttribute("name", "");
+                document.getElementById("differentContactsSection").style.display = "none";
+            }
+        });
+
+    </script>
+</div>

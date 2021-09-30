@@ -1,0 +1,316 @@
+﻿@model List<ShpalljeOnline.Models.Post>
+
+@{
+    ViewBag.Title = "Shpallje Online - Home";
+}
+
+<div class="container mt-4">
+    @*-----------FILTERING------------------------------------------*@
+    <form action="/Admin/Home/Index" id="filtering-form">
+        <div class="home-filtering row d-flex justify-content-around">
+
+            <div class="fjalet-kyqe col-12 col-sm-12 col-md-3 col-lg-3 p-0" style="height:50px;">
+                <input id="search" type="text" class="d-inline form-control" placeholder="Fjalet Kyqe" name="search" style="display: inline; height:100%;" value="@ViewBag.search" />
+            </div>
+
+            <div class="te-gjitha-kategorite col-12 col-sm-12 col-md-3 col-lg-3 p-0">
+                <select id="category" name="categoryID" class="form-control " style="height:50px;">
+                    <option value="all" selected>Te gjitha kategorite:</option>
+                    @foreach (var category in ViewBag.categories)
+                    {
+                        if (ViewBag.selectedCategory == category.CategoryID)
+                        {
+                            <option value="@category.CategoryID" selected>@category.CategoryName</option>
+                        }
+                        else
+                        {
+                            <option value="@category.CategoryID">@category.CategoryName</option>
+                        }
+                    }
+                </select>
+            </div>
+
+            <div class="te-gjitha-lokacionet col-12 col-sm-12 col-md-3 col-lg-3 p-0">
+                <select id="location" name="locationID" class="form-control " style="height:50px;">
+                    <option value="all" selected>Te gjitha qytetet:</option>
+                    @foreach (var location in ViewBag.locations)
+                    {
+                        if (ViewBag.selectedLocation == location.LocationID)
+                        {
+                            <option value="@location.LocationID" selected>@location.LocationName</option>
+                        }
+                        else
+                        {
+                            <option value="@location.LocationID">@location.LocationName</option>
+                        }
+                    }
+                </select>
+            </div>
+
+            <div class="btnKerko col-12 col-sm-12 col-md-2 col-lg-2">
+                <button type="submit" class="btn btn-info" style="width:70px; height:50px; ">
+                    <i class="material-icons" style="font-size:30px;color:white; margin-top:4px;">search</i>
+                </button>
+            </div>
+        </div>
+    </form>
+
+    @*If there are no posts justify content to the end for better aligning for the sorting div*@
+    @{
+        string whereToJustify = "justify-content-between";
+        if (Model.Count == 0)
+        {
+            whereToJustify = "justify-content-end";
+        }
+    }
+
+    <div class="home-content-all row d-flex justify-content-between mt-5">
+        <div class="row @whereToJustify" style="width:100%;">
+            @*-------POSTS-----------------------------------------------------*@
+            @{int count = 1;}
+
+            @foreach (var post in Model)
+            {
+                <div class="home-content d-flex order-@count col-12 col-sm-12 col-md-12 col-lg-9" style="margin:0;">
+                    <div class="row" style="width:100%;">
+                        <div class="home-content1 col-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="image">
+                                @if (post.Photo != null)
+                                {
+                                    <a href="/Admin/Post/Details/@post.PostID">
+                                        <img src="data:image;base64,@post.Photo" height="200px" width="100%" />
+                                    </a>
+                                }
+                                else
+                                {
+                                    <img src="~/Images/no-image.png" height="200px" width="100%" />
+                                }
+                            </div>
+                        </div>
+
+                        <div class="home-content2 col-12 col-sm-8 col-md-8 col-lg-8">
+                            <div class="row">
+                                <div class="title col-12" style="overflow:hidden;">
+                                    <a href="/Admin/Post/Details/@post.PostID" style="text-decoration:none; font-size:1.1em; font-weight:600;">@post.Title</a>
+                                </div>
+                            </div>
+
+                            <div class="card-second row justify-content-between mt-1" style="font-size:0.8em;">
+                                <div class="user user-1 col-5">
+                                    <img src="~/Images/user.png" width="15px;" />
+                                    @if (Session["UserID"] != null)
+                                    {
+                                        if (post.UserID == long.Parse(Session["UserID"].ToString()))
+                                        {
+                                            <a class="text-info" style="text-decoration:none" href="/admin/account/viewprofile/@post.UserID">You</a>
+                                        }
+                                        else
+                                        {
+                                            <a class="text-info" style="text-decoration:none" href="/admin/account/viewprofile/@post.UserID">@post.User.Name</a>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <span>@post.User.Name</span>
+                                    }
+                                </div>
+                                <div class="user user-2 col-7" style="text-align:right;">
+                                    <span class="d-inline-block">Postuar më: @post.Date.Value.ToString("dd MMMM, HH:mm")</span>
+                                </div>
+                                <hr class="seperate" style="margin: 4px 0 7px 14px; width:95%;" />
+                            </div>
+
+                            <div class="row">
+                                <div class="description col-12" style="height: 85px;">
+                                    <p>@post.Description</p>
+                                </div>
+                            </div>
+
+                            <div class="row d-flex justify-content-between" style="margin-top:16px;">
+                                <div class="location" style="height:25px; margin-top:17px; padding: 0 10px 3px 0;">
+                                    <i class="material-icons text-info" style="font-size:20px; margin-top:2px;">location_on</i>
+                                    <span style="font-size: 0.7em; letter-spacing:0.1em; text-transform: uppercase; margin:0;" id="txt2">@post.Location.LocationName</span>
+                                </div>
+                                <div class="read-more">
+                                    <a class="btn bg-info pl-2 pr-2" style="margin-top:8px;" href="/Admin/Post/Details/@post.PostID">Lexo më shumë</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                if (count == 1)
+                {
+                    @*---------SORTING----------------------------------------------*@
+                    <div class="home-sorting-parent col-12 col-sm-12 col-lg-3 d-flex order-1 justify-content-end pr-0">
+                        <div class="home-sorting" style="">
+                            <h5 class="text-info">Rendit:</h5>
+                            <div>
+                                @if (ViewBag.selectedSorting == "descending")
+                                {
+                                    <input checked="checked" type="radio" id="me-te-rejat" name="sorting" data-name="isAscending" />
+                                }
+                                else
+                                {
+                                    <input type="radio" id="me-te-rejat" name="sorting" data-name="isAscending" />
+                                }
+                                <label class="ml-3" for="me-te-rejat">Me te rejat</label>
+                            </div>
+                            <div>
+                                @if (ViewBag.selectedSorting == "ascending")
+                                {
+                                    <input checked="checked" type="radio" id="me-te-vjetrat" name="sorting" data-name="isAscending" />
+                                }
+                                else
+                                {
+                                    <input type="radio" id="me-te-vjetrat" name="sorting" data-name="isAscending" />
+                                }
+
+                                <label class="ml-3" for="me-te-vjetrat">Me te vjetrat</label>
+                            </div>
+
+                            @if (ViewBag.selectedSorting == "date")
+                            {
+                                <div>
+                                    <input checked="checked" type="radio" id="ne-daten" name="sorting" />
+                                    <label class="ml-3" for="ne-daten">Nga Data:</label>
+                                </div>
+                                <div>
+                                    <input id="sortFromDate" type="date" class="form-control" style="height:30px; width:90%;" value="@ViewBag.selectedDate" />
+                                </div>
+                            }
+                            else
+                            {
+                                <div>
+                                    <input type="radio" id="ne-daten" name="sorting" />
+                                    <label class="ml-3" for="ne-daten">Nga Data:</label>
+                                </div>
+                                <div>
+                                    <input id="sortFromDate" type="date" class="form-control" style="height:30px; width:90%;" />
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
+                count++;
+            }
+
+        </div>
+
+
+        <div class="mt-5 mb-5">
+            @{
+                int PrevPageNo = ViewBag.PageNo - 1;
+                if (PrevPageNo <= 0)
+                {
+                    PrevPageNo = 1;
+                }
+
+                int NextPageNo = ViewBag.PageNo + 1;
+                if (NextPageNo > ViewBag.NoOfPages)
+                {
+                    NextPageNo = ViewBag.NoOfPages;
+                }
+            }
+            @if (Model.Count > 0)
+            {
+                <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                        <a class="page-link" href="/admin/home/index/?PageNo=@PrevPageNo">Prev</a>
+                    </li>
+                    @for (int i = 0; i < ViewBag.NoOfPages; i++)
+                    {
+                        if ((i + 1) == ViewBag.PageNo)
+                        {
+                            <li class="page-item active">
+                                <a class="page-link" href="/admin/home/index/?PageNo=@(i + 1)">@( i + 1)</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="page-item">
+                                <a class="page-link" href="/admin/home/index/?PageNo=@(i + 1)">@( i + 1)</a>
+                            </li>
+                        }
+                    }
+                    <li class="page-item">
+                        <a class="page-link" href="/admin/home/index/?PageNo=@NextPageNo">Next</a>
+                    </li>
+                </ul>
+            }
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Shpallja juaj eshte fshire me sukses!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Ne Rregull</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    var deleted = '@ViewBag.deletedPost'
+
+    if (deleted == "true") {
+        console.log("is deleted");
+        $("#exampleModal").modal("show");
+    }
+
+    if (document.getElementById("ne-daten").checked != true) {
+        document.getElementById("sortFromDate").style.display = "none";
+    }
+
+
+    $(document).on('click', 'input[type=radio]', function () {
+        var id = $(this).attr('id');
+        var dataName = $(this).attr('data-name');
+
+        hideDate(id);
+
+        var search = document.getElementById("search").value;
+        var category = document.getElementById("category").value;
+        var location = document.getElementById("location").value;
+
+        if (dataName != undefined) {
+            var url = "/Admin/Home/Index";
+
+            if (id == "me-te-rejat") {
+                url += "?search=" + search + "&categoryID=" + category + "&locationID=" + location + "&sortingOrder=descending";
+            }
+            else {
+                url += "?search=" + search + "&categoryID=" + category + "&locationID=" + location + "&sortingOrder=ascending";
+            }
+
+            window.location = url;
+        }
+    });
+
+    document.getElementById("sortFromDate").addEventListener("change", function () {
+        var search = document.getElementById("search").value;
+        var category = document.getElementById("category").value;
+        var location = document.getElementById("location").value;
+        var date = this.value;
+        var url = "/Admin/Home/Index";
+        url += "?search=" + search + "&categoryID=" + category + "&locationID=" + location + "&fromDate=" + date;
+        window.location = url;
+    });
+
+    function hideDate(id) {
+        if (id == "ne-daten") {
+            document.getElementById("sortFromDate").style.display = "block";
+        }
+        else {
+            document.getElementById("sortFromDate").style.display = "none";
+        }
+    }
+    </script>

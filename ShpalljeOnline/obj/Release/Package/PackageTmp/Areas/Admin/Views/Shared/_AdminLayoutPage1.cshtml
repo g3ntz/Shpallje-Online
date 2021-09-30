@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/Content/styles.css" />
+    <script src="~/Scripts/jquery-3.0.0.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg text-light navbar-light">
+            <a class="navbar-brand" href="/Admin/Home/Index">Shpallje Online</a>
+
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavBar">
+                <span class="" role="button"><i class="fa fa-bars" aria-hidden="true" style="color:#e6e6ff"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavBar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Admin/Home/Index">Shpalljet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Admin/Category/Index">Kategorite</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Admin/Locations/Index">Lokacionet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Admin/User/Index">Perdoruesit</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Admin/Post/create">
+                            <img src="~/Images/plus_64px.png" width="26px" style="color:white; margin-top: -3px;" />
+                            <span>Posto Shpallje</span>
+                        </a>
+                    </li>
+
+                    @if (Session["Email"] != null)
+                    {
+                        <div class="nav-item dropdown mr-5">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                                <img src="~/Images/user.png" width="20px" />
+                                <span style="color:yellow;">@Session["Name"]</span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #046475;">
+                                <li><a class="dropdown-item" href="/admin/account/myprofile">Profili im</a></li>
+                                <li><a class="dropdown-item" href="/account/logout">Dilni</a></li>
+                            </ul>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="nav-item">
+                            <a class="nav-link" href="/Account/Register">Regjistrohu</a>
+                        </div>
+                        <div class="nav-item mr-5">
+                            <a class="nav-link" href="/Account/Login">Kyqu</a>
+                        </div>
+                    }
+                </ul>
+            </div>
+
+            @*@if (Session["Email"] != null)
+            {
+                <div class="nav-item dropdown mr-5">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                        <img src="~/Images/user.png" width="20px" />
+                        <span style="color:yellow;">@Session["Name"]</span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #046475;">
+                        <li><a class="dropdown-item" href="/admin/account/myprofile">Profili im</a></li>
+                        <li><a class="dropdown-item" href="/account/logout">Dilni</a></li>
+                    </ul>
+                </div>
+            }
+            else
+            {
+                <div class="nav-item">
+                    <a class="nav-link" href="/Account/Register">Regjistrohu</a>
+                </div>
+                <div class="nav-item mr-5">
+                    <a class="nav-link" href="/Account/Login">Kyqu</a>
+                </div>
+            }*@
+        </nav>
+        @RenderBody()
+    </div>
+</body>
+</html>
+

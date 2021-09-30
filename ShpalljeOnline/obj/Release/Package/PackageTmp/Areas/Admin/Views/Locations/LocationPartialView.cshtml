@@ -1,0 +1,15 @@
+﻿
+<div class="location-watch col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6">
+    <h4 class="text-info">Te gjitha Lokacionet</h4>
+    <ul class="list-group list-group-flush mt-4">
+        @{ int count = 1; }
+        @foreach (var item in ViewBag.Locations)
+        {
+            <li class="list-group-item list-group-item-action d-flex justify-content-between">
+                @count. @item.LocationName
+                <a href="#" style="text-align:right; text-decoration:none;" onclick="deleteLocation('@item.LocationID', '@item.LocationName')"><i class="material-icons text-danger" style="font-size:25px;">delete</i></a>
+            </li>
+            count++;
+        }
+    </ul>
+</div>

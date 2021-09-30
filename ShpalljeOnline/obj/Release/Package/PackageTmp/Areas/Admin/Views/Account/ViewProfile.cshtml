@@ -1,0 +1,169 @@
+﻿@model ShpalljeOnline.Models.User
+@{
+    ViewBag.Title = "Shpallje Online - Shiko Profilin";
+}
+
+<style>
+    th {
+        font-weight: 600;
+        color: #898989;
+    }
+</style>
+
+<div style="width: 95%; margin: 0 auto;">
+    <div class="row">
+        @if (Model.UserID != long.Parse(Session["UserID"].ToString()))
+        {
+            <h3 class="text-info mt-4 col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">Te Dhenat e Profilit</h3>
+            <a href="#" class="col-12 col-sm-6 col-md-4 col-lg-6 col-xl-6 text-danger" style="text-decoration:none; margin-top:23px;" onclick="deleteUser('@Model.UserID')">
+                <span id="txt1">Fshije Perdoruesin</span><i class="material-icons text-danger" style="font-size:35px;">delete</i>
+            </a>
+        }
+        else
+        {
+            <h3 class="text-info mt-4 col-2">Profili Juaj</h3>
+        }
+    </div>
+
+    <table class="table table-bordered mt-2 bg-white">
+        <tr>
+            <th>ID</th>
+            <td>@Model.UserID</td>
+        </tr>
+        <tr>
+            <th>Email Adresa</th>
+            <td>@Model.Info.Email</td>
+        </tr>
+        <tr>
+            <th>Emri</th>
+            <td>@Model.Name</td>
+        </tr>
+        <tr>
+            <th>Mbiemri</th>
+            <td>@Model.Surname</td>
+        </tr>
+        <tr>
+            <th>Roli</th>
+            <td>@Model.Role.RoleName</td>
+        </tr>
+    </table>
+
+    <h3 class="text-info mt-4 col-6">Shpalljet e Postuara</h3>
+
+    <div class="row justify-content-between mt-2">
+        @foreach (var post in (List<ShpalljeOnline.Models.Post>)ViewBag.posts)
+        {
+            <div class="home-content d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 mt-3" style="margin:0;">
+                <div class="row" style="width:100%;">
+                    <div class="home-content1 col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <div class="image">
+                            @if (post.Photo != null)
+                            {
+                                <a href="/Admin/Post/Details/@post.PostID">
+                                    <img src="data:image;base64,@post.Photo" height="200px" width="100%" />
+                                </a>
+                            }
+                            else
+                            {
+                                <img src="~/Images/no-image.png" height="200px" width="100%" />
+                            }
+                        </div>
+                    </div>
+
+                    <div class="home-content2 col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                        <div class="row">
+                            <div class="title col-12" style="overflow:hidden;">
+                                <a href="/Admin/Post/Details/@post.PostID" style="text-decoration:none; font-size:1.2em; font-weight:600;">@post.Title</a>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-between mt-1" style="font-size:0.8em;">
+                            <div class="user user-1 col-5">
+                                <img src="~/Images/user.png" width="15px;" />
+                                <span>@post.User.Name</span>
+                            </div>
+                            <div class="user col-6 col-lg-7 col-md-7 col-sm-7 col-xl-7" style="text-align:right;">
+                                <span class="d-inline-block">Postuar më: @post.Date.Value.ToString("dd MMMM, HH:mm")</span>
+                            </div>
+                            <hr style="margin: 4px 0 7px 0; width:100%;" />
+                        </div>
+
+                        <div class="row">
+                            <div class="description col-12" style="height: 85px;">
+                                <p>@post.Description</p>
+                            </div>
+                        </div>
+
+                        <div class="row d-flex justify-content-between" style="margin-top:23px;">
+                            <div class="">
+                                <div class="location" style="height:25px; margin-top:8px; padding: 0 10px 3px 0;">
+                                    <i class="material-icons text-info" style="font-size:20px; margin-top:2px;">location_on</i>
+                                    <span style="font-size: 0.7em; letter-spacing:0.1em; text-transform: uppercase; margin:0;" id="txt2">@post.Location.LocationName</span>
+                                </div>
+                            </div>
+
+                            <div class="col-7 d-flex justify-content-end pr-0">
+                                <div class="read-more" style="">
+                                    <a href="/Admin/Post/Edit/@post.PostID" class="btn btn-info text-white pl-3 pr-3">Edito</a>
+                                </div>
+                                <div class="read-more2">
+                                    <a onclick="deletePost('@post.PostID')" class="btn btn-danger text-white pl-3 pr-3">Fshije</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">A jeni i sigurte qe deshironi ta fshini kete shpallje?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Jo</button>
+                <form id="deletePostForm" method="post" action="">
+                    <button id="btnDelete" href="" class="btn btn-danger text-white">Po, i sigurte</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">A jeni i sigurte qe deshironi ta fshini kete perdorues?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Jo</button>
+                <a id="btnDelete2" href="/Admin/Post/Delete/value_id" class="btn btn-danger text-white">Po, i sigurte</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function deletePost(postID) {
+        $("#deletePostForm").attr("action", "/Admin/Post/Delete/" + postID + "?deletedFrom=ViewProfile");
+        $("#exampleModal").modal("show");
+    }
+
+    function deleteUser(userID) {
+        $("#btnDelete2").attr("href", "/Admin/User/Delete/" + userID);
+        $("#exampleModal2").modal("show");
+    }
+</script>

@@ -1,0 +1,222 @@
+﻿@model List<ShpalljeOnline.Models.User>
+@{
+    ViewBag.Title = "Shpallje Online - Perdoruesit";
+}
+
+<style>
+    th a {
+        color: var(--info) !important;
+        text-decoration:none !important;
+    }
+
+    th a:hover{
+        color: #046475 !important;
+    }
+</style>
+
+<div class="row mt-3">
+    <a href="/admin/user/create" class="btn btn-info text-white ml-2">Krijo Perdorues</a>
+    <form class="nothing-much col-5 ml-5" action="/admin/user/index">
+        <input type="text" class="form-control col-3" placeholder="Emri Mbiemri" name="search" value="@ViewBag.search" />
+        <button type="submit" class="btn text-white" style="margin-top: -4px; background-color:#046475;">Kerko</button>
+    </form>
+</div>
+
+
+<table class="table mt-3">
+    <tr class="table-secondary ml-3">
+        <th style="width:5%;">
+            @if (ViewBag.IconClass == "fa-sort-desc")
+            {
+                <a href="/admin/user/index?SortColumn=UserID&IconClass=fa-sort-asc&PageNo=1">ID</a>
+                if (ViewBag.SortColumn == "UserID")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+            else
+            {
+                <a href="/admin/user/index?SortColumn=UserID&IconClass=fa-sort-desc&PageNo=1">ID</a>
+                if (ViewBag.SortColumn == "UserID")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+        </th>
+        <th style="width:10%">
+            @if (ViewBag.IconClass == "fa-sort-desc")
+            {
+                <a href="/admin/user/index?SortColumn=Name&IconClass=fa-sort-asc&PageNo=1">Emri</a>
+                if (ViewBag.SortColumn == "Name")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+            else
+            {
+                <a href="/admin/user/index?SortColumn=Name&IconClass=fa-sort-desc&PageNo=1">Emri</a>
+                if (ViewBag.SortColumn == "Name")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+        </th>
+        <th style="width:12%">
+            @if (ViewBag.IconClass == "fa-sort-desc")
+            {
+                <a href="/admin/user/index?SortColumn=Surname&IconClass=fa-sort-asc&PageNo=1">Mbiemri</a>
+                if (ViewBag.SortColumn == "Surname")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+            else
+            {
+                <a href="/admin/user/index?SortColumn=Surname&IconClass=fa-sort-desc&PageNo=1">Mbiemri</a>
+                if (ViewBag.SortColumn == "Surname")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+        </th>
+        <th style="width:15%">
+            @if (ViewBag.IconClass == "fa-sort-desc")
+            {
+                <a href="/admin/user/index?SortColumn=Email&IconClass=fa-sort-asc&PageNo=1">Email Adresa</a>
+                if (ViewBag.SortColumn == "Email")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+            else
+            {
+                <a href="/admin/user/index?SortColumn=Email&IconClass=fa-sort-desc&PageNo=1">Email Adresa</a>
+                if (ViewBag.SortColumn == "Email")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+        </th>
+        <th style="width:10%">
+            @if (ViewBag.IconClass == "fa-sort-desc")
+            {
+                <a href="/admin/user/index?SortColumn=PhoneNr&IconClass=fa-sort-asc&PageNo=1">Telefoni</a>
+                if (ViewBag.SortColumn == "PhoneNr")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+            else
+            {
+                <a href="/admin/user/index?SortColumn=PhoneNr&IconClass=fa-sort-desc&PageNo=1">Telefoni</a>
+                if (ViewBag.SortColumn == "PhoneNr")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+        </th>
+        <th style="width:10%">
+            @if (ViewBag.IconClass == "fa-sort-desc")
+            {
+                <a href="/admin/user/index?SortColumn=Role&IconClass=fa-sort-asc&PageNo=1">Roli</a>
+                if (ViewBag.SortColumn == "Role")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+            else
+            {
+                <a href="/admin/user/index?SortColumn=Role&IconClass=fa-sort-desc&PageNo=1">Roli</a>
+                if (ViewBag.SortColumn == "Role")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+        </th>
+        <th style="width:15%"></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(temp => item.UserID)</td>
+            <td>@Html.DisplayFor(temp => item.Name)</td>
+            <td>@Html.DisplayFor(temp => item.Surname)</td>
+            <td>@Html.DisplayFor(temp => item.Info.Email)</td>
+            <td>@Html.DisplayFor(temp => item.Info.PhoneNr)</td>
+            <td>@Html.DisplayFor(temp => item.Role.RoleName)</td>
+            <td>
+                <a href="/Admin/Account/Viewprofile/@item.UserID" class="ml-2 p-2 text-white" style="border-radius:6px; background-color:#046475;">Detajet</a>
+                <a href="/Admin/User/Edit/@item.UserID" class="ml-2 pt-2 pt-2 pr-3 pb-2 pl-3 bg-info text-white" style="border-radius:6px;">Edito</a>
+                <a href="#" onclick="deleteUser('@item.UserID')" class="ml-2 p-2 bg-danger text-white" style="border-radius:6px;">Fshije</a>
+            </td>
+        </tr>
+    }
+
+    <tr>
+        <td colspan="9">
+            @{
+                int PrevPageNo = ViewBag.PageNo - 1;
+                if (PrevPageNo <= 0)
+                {
+                    PrevPageNo = 1;
+                }
+
+                int NextPageNo = ViewBag.PageNo + 1;
+                if (NextPageNo > ViewBag.NoOfPages)
+                {
+                    NextPageNo = ViewBag.NoOfPages;
+                }
+            }
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="/admin/user/index?SortColumn=@ViewBag.SortColumn&IconClass=@ViewBag.IconClass&PageNo=@PrevPageNo">Prev</a>
+                </li>
+                @for (int i = 0; i < ViewBag.NoOfPages; i++)
+                {
+                    if ((i + 1) == ViewBag.PageNo)
+                    {
+                        <li class="page-item active">
+                            <a class="page-link" href="/admin/user/index?SortColumn=@ViewBag.SortColumn&IconClass=@ViewBag.IconClass&PageNo=@(i + 1)">@( i + 1)</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="page-item">
+                            <a class="page-link" href="/admin/user/index?SortColumn=@ViewBag.SortColumn&IconClass=@ViewBag.IconClass&PageNo=@(i + 1)">@( i + 1)</a>
+                        </li>
+                    }
+                }
+                <li class="page-item">
+                    <a class="page-link" href="/admin/user/index?SortColumn=@ViewBag.SortColumn&IconClass=@ViewBag.IconClass&PageNo=@NextPageNo">Next</a>
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">A jeni i sigurte qe deshironi ta fshini kete perdorues?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Jo</button>
+                <a id="btnDelete" href="#" class="btn btn-danger text-white">Po, i sigurte</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function deleteUser(userID) {
+        $("#btnDelete").attr("href", "/Admin/User/Delete/" + userID);
+        $("#exampleModal").modal("show");
+
+    }
+</script>
+

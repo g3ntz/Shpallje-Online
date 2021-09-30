@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/shpalljeonlinedbdbserver/databases/ShpalljeOnlineDB",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:ShpalljeOnlineConnectionString",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}

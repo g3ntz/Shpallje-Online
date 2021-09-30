@@ -1,0 +1,531 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+}
+
+.navbar {
+    background-color: #046475;
+}
+
+#active {
+    color: yellow !important;
+}
+
+.navbar a:link, .navbar a:visited {
+    color: white !important;
+}
+
+.navbar a:hover {
+    color: #0dedd1 !important;
+    text-decoration: underline;
+}
+
+.navbar-expand-sm .navbar-nav .dropdown-menu {
+    background-color: #046475;
+}
+
+.dropdown-menu a:hover {
+    color: black !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.login-box {
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px black;
+    margin-top: 100px;
+    padding: 40px;
+}
+
+.row{
+    margin:0;
+}
+
+.home-filtering {
+    background-color: white;
+    border: 1px solid #e9e9e9;
+    padding: 20px;
+}
+
+.home-sorting {
+    background-color: white;
+    border: 1px solid #e9e9e9;
+    padding: 10px;
+    width: 85%;
+    height: 180px;
+}
+
+.home-content {
+    width: 70%;
+    background-color: white;
+    border: 1px solid #e9e9e9;
+    padding: 13px;
+}
+
+.container-fluid a:first-child {
+    color: black;
+}
+
+.field-validation-error {
+    color: red;
+    font-size: 0.9em;
+}
+
+.validation-summary-errors {
+    color: red;
+}
+
+.title{
+    max-height:50px;
+}
+
+.title a{
+    color: #17a2b8 !important;
+    transition: 0.3s;
+}
+
+
+.title a:hover{
+    color: #046475 !important;
+}
+
+.description{
+    max-height:200px;
+    overflow:hidden;
+}
+
+.location {
+    background-color: #ecebeb;
+    /*padding:3px;*/
+    margin-left:15px;
+}
+
+.user{
+    margin-top: -5px;
+}
+
+.read-more {
+    height:40px;
+    margin-right:15px;
+}
+
+.read-more2{
+    height:40px;
+}
+
+.read-more a {
+    color: white !important;
+    display: block;
+    text-decoration:none;
+}
+
+.form-control{
+    display: inline;
+}
+
+#txt1 {
+    font-size: 20px;
+    line-height: 34px;
+}
+
+#txt2 {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.material-icons {
+    display: inline-flex;
+    vertical-align: top;
+}
+
+.pagination > li > a {
+    background-color: white;
+    color: #046475;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a {
+    color: white;
+    background-color: #046475 !Important;
+    border: solid 1px #046475 !Important;
+}
+
+.pagination > .active > a:hover {
+    background-color: #046475 !Important;
+    border: solid 1px #046475;
+}
+
+
+
+
+
+/*  MEDIA QUERIES  */
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    .container {
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .nothing-much{
+        margin-left: -20px !important;
+    }
+
+    .category-create {
+        margin-top: 30px;
+    }
+
+    .location-create {
+        margin-top: 30px;
+    }
+
+    .description{
+        height: 96px !important;
+    }
+
+    .te-gjitha-kategorite select{
+        font-size: 1em !important;
+    }
+
+    .te-gjitha-lokacionet select{
+        font-size: 1em !important;
+    }
+
+    .fjalet-kyqe input{
+        font-size: 1em !important;
+    }
+
+    .det-infos{
+        font-size: 1.1em;
+    }
+
+    .register-page{
+        width:95% !important;
+    }
+
+    .login-page{
+        width: 90% !important;
+    }
+
+    .justify-different{
+        justify-content: end;
+    }
+
+    .home-sorting-parent {
+        -ms-flex-order: 0;
+        order: 0;
+        -ms-flex-pack: start !important;
+        justify-content: flex-start !important;
+        padding-left: 0;
+        margin-bottom: 15px;
+    }
+
+    .home-sorting {
+        width: 100%;
+    }
+
+    .fjalet-kyqe {
+        margin-bottom: 8px;
+    }
+
+    .te-gjitha-kategorite {
+        margin-bottom: 8px;
+    }
+
+    .te-gjitha-lokacionet {
+        margin-bottom: 8px;
+    }
+
+    .description{
+        padding:0!important;
+    }
+
+    .description p{
+        font-size: 12px;
+        line-height: 1.6;
+        color: #555;
+    }
+
+    .shiko{
+        padding:0;
+        font-size: 1em !important;
+        margin-bottom:20px;
+    }
+
+
+    .seperate{
+        margin: 4px 0 7px 0 !important;
+        width:100% !important;
+    }
+
+    .location{
+        margin-left:0 !important;
+    }
+
+    .read-more2{
+        margin-right: 0 !important;
+    }
+
+    .post-email {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .post-email2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .image img {
+        height: 280px !important;
+    }
+
+    .home-content{
+        margin-bottom: 25px !important;
+    }
+
+    .home-content1{
+        padding-left:0 !important;
+        padding-right: 0!important;
+    }
+
+    .home-content2{
+        padding-left:0;
+        padding-right: 0;
+    }
+
+    .title{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .user-1{
+        padding-left:0!important;
+    }
+    .user-2 {
+        padding-right: 0 !important;
+    }
+
+    .card-second {
+        margin-top: 18px !important;
+    }
+
+    .btnKerko {
+        padding-left: 0 !important;
+    }
+
+    .justify-different {
+        -ms-flex-pack: end !important;
+        justify-content: flex-end !important;
+        margin-top:15px;
+        margin-bottom:15px;
+    }
+
+    .details-title{
+        font-size:1.4em;
+        font-weight:600;
+    }
+
+    .postuar-me {
+        font-size: 0.8em;
+    }
+
+    .nga {
+        font-size: 0.8em;
+    }
+
+    .location2{
+        font-size: 0.9em;
+    }
+
+    .postdetails-img{
+        height: 350px !important;
+    }
+
+    .img-above {
+        padding-right: 0 !important;
+    }
+
+    .details-permbajtja{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .permbajtja{
+        font-size: 1.1em;
+    }
+
+    .permbajtja-text{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+    .container {
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .te-dhenat {
+        font-size: 1.4em;
+    }
+
+    .category-create {
+        margin-top: 30px;
+    }
+
+    .location-create {
+        margin-top: 30px;
+    }
+
+    .home-sorting-parent {
+        -ms-flex-order: 0;
+        order: 0;
+        -ms-flex-pack: start !important;
+        justify-content: flex-start !important;
+        padding-left: 0;
+        margin-bottom: 15px;
+    }
+
+    .justify-different {
+        -ms-flex-pack: end !important;
+        justify-content: flex-end !important;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .post-email {
+        padding-left: 0;
+    }
+
+    .home-sorting {
+        width: 100%;
+    }
+
+    .fjalet-kyqe{
+        margin-bottom:8px;
+    }
+
+    .te-gjitha-kategorite {
+        margin-bottom: 8px;
+    }
+
+    .te-gjitha-lokacionet {
+        margin-bottom: 8px;
+    }
+
+    .btnKerko{
+        padding-left:0 !important;
+    }
+
+    .shiko{
+        padding:0;
+        font-size: 1em !important;
+        margin-bottom:20px;
+    }
+
+    .postdetails-img {
+        height: 450px !important;
+    }
+
+    .img-above {
+        padding-right: 0 !important;
+    }
+
+    .details-permbajtja {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .category-create {
+        margin-top: 30px;
+    }
+
+    .location-create {
+        margin-top: 30px;
+    }
+
+    .home-sorting-parent {
+        -ms-flex-order: 0;
+        order: 0;
+        -ms-flex-pack: start !important;
+        justify-content: flex-start !important;
+        padding-left:0;
+        margin-bottom: 15px;
+    }
+
+    .post-email {
+        padding-left: 0;
+    }
+
+    .home-content-all{
+        margin-top:15px !important;
+    }
+
+    .home-sorting {
+        width: 100%;
+    }
+
+    #category {
+        font-size: 0.9rem;
+    }
+
+    #location {
+        font-size: 0.9rem;
+    }
+
+    .postdetails-img {
+        height: 550px !important;
+    }
+
+    .img-above{
+        padding-right: 0 !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        width: 100%;
+        max-width: 1200px;
+    }
+
+
+}
+
+@media screen and (min-width: 1201px) {
+    .container{
+        width:100%;
+        max-width: 1200px;
+    }
+
+}
+
+/*
+.postdetails-img {
+    width: 70%;
+    margin-left: 15%;
+}*/
